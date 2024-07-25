@@ -2,6 +2,5 @@ streamlit
 python-dotenv
 langchain
 langchain_openai
-psycopg2
+psycopg2-binary
 langchain-community
-psycopg2
