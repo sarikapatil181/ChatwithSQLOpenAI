@@ -24,23 +24,7 @@ import os
 from langchain.prompts.chat import ChatPromptTemplate,MessagesPlaceholder
 
 os.environ['OPENAI_API_KEY']=os.getenv("OPENAI_API_KEY")
-#======POSGRESQL Database Connection===============
-host = '127.0.0.1'
-user = 'postgres'
-password ='admin%40123'
-#password ='admin@123'
-dbname= "ro_sim_db"
-port="5432"
-#===================================================
 
-#=======MYSQL Database Connection ===================
-host1 = 'localhost'
-user1 = 'root'
-password1 ='admin123'
-#password ='admin@123'
-dbname1= "collaboration"
-port="3306"
-#====================================================
 
 #https://towardsdatascience.com/talk-to-your-sql-database-using-langchain-and-azure-openai-bb79ad22c5e2
 
